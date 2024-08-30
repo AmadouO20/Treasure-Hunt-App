@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Required permissions -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TreasureHunt"
+        tools:targetApi="34">
+
+        <!-- PermissionActivity is the launcher activity -->
+        <activity
+            android:name=".Permission"
+            android:exported="true"
+            android:theme="@style/Theme.TreasureHunt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- StartPageActivity -->
+        <activity
+            android:name=".StartPage"
+            android:exported="true"
+            android:theme="@style/Theme.TreasureHunt" />
+
+        <!-- CluePageActivity -->
+        <activity
+            android:name=".CluePage"
+            android:exported="true"
+            android:theme="@style/Theme.TreasureHunt" />
+
+        <!-- ClueSolvedPageActivity -->
+        <activity
+            android:name=".ClueSolvedPage"
+            android:exported="true"
+            android:theme="@style/Theme.TreasureHunt" />
+
+        <!-- TreasureHuntCompletedActivity -->
+        <activity
+            android:name=".TreasureHuntCompletedActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TreasureHunt" />
+
+    </application>
+
+</manifest>

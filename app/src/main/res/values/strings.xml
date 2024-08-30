@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Treasure Hunt</string>
+    <string name="rules_of_the_game">Rules of the game: </string>
+    <string name="start">Start</string>
+    <string name="treasure_hunt">Treasure Hunt</string>
+    <string name="clue_first">Clue: Grab some things for dinner but keep an eye on the time.</string>
+    <string name="clue_second">Clue: this is the second option.</string>
+    <string name="hint">Hint</string>
+    <string name="time_elapsed_0s">Time elapsed: 0s</string>
+    <string name="found_it">Found It!</string>
+    <string name="quit">Quit</string>
+    <string name="Proceed">Proceed</string>
+    <string name="elapsed_time_0s">Elapsed Time: 0s</string>
+    <string name="the_pike_place_market_was_founded_in_1907">The Mercedes Benz stadium was built in August 2017</string>
+    <string name="clue_solved">Clue Solved!</string>
+    <string name="total_time_0s">Total Time: 0s</string>
+    <string name="home">Home</string>
+    <string name="final_location_information_here">The Capital Grille restaurant first opened in Rhode Island in 1990.</string>
+    <string name="congratulations">Congratulations! You have completed the treasure hunt map</string>
+    <string name="game_rules">
+        1. The Start Button takes you to the "Clue" page.\n
+        2. There are (at least) TWO clues to solve in the app.\n
+        3. You will be given the first clue.\n
+        4. Locate the location, if you are struggling, use the hint button.\n
+        5. If you found the clue, you will be sent to a solved page.\n
+        6. Click on proceed to do the same steps for the second clue.\n
+        7. Afterwards, you will receive a congratulations message.\n
+    </string>
+</resources>
